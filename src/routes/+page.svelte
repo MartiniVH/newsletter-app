@@ -1,7 +1,7 @@
 <script>
-	import Container from '../components/organisms/Container.svelte';
+	import Container from '$lib/components/organisms/Container.svelte';
 	import interviews from '../data/articles.json';
-	import InterviewContainer from '../components/organisms/InterviewContainer.svelte';
+	import InterviewContainer from '$lib/components/organisms/InterviewContainer.svelte';
 </script>
 
 <div class="flex justify-center">

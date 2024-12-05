@@ -3,9 +3,9 @@
 	import { error } from '@sveltejs/kit';
 	import articles from '../../../data/articles.json';
 	import { marked } from 'marked';
-	import Container from '../../../components/organisms/Container.svelte';
-	import Navigation from '../../../components/organisms/Navigation.svelte';
-	import Button from '../../../components/atoms/Button.svelte';
+	import Container from '$lib/components/organisms/Container.svelte';
+	import Navigation from '$lib/components/organisms/Navigation.svelte';
+	import Button from '$lib/components/atoms/Button.svelte';
 	import { goto } from '$app/navigation';
 	const { articleId } = $page.params;
 	const article = articles.find((article) => article.id === parseInt(articleId));

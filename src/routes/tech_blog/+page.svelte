@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { createQuery, useQueryClient, createMutation } from '@tanstack/svelte-query';
-	import Container from '../../components/organisms/Container.svelte';
-	import Post from '../../components/molecules/Post.svelte';
-	import Button from '../../components/atoms/Button.svelte';
+	import Container from '$lib/components/organisms/Container.svelte';
+	import Post from '$lib/components/molecules/Post.svelte';
+	import Button from '$lib/components/atoms/Button.svelte';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();

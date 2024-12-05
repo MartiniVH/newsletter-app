@@ -1,7 +1,7 @@
 <script>
 	import { browser } from "$app/environment";
     import "../app.css";
-	import Navigation from "../components/organisms/Navigation.svelte";
+	import Navigation from "$lib/components/organisms/Navigation.svelte";
     let { children } = $props();
     import { QueryClientProvider, QueryClient } from "@tanstack/svelte-query";
     import { SvelteQueryDevtools } from '@tanstack/svelte-query-devtools';

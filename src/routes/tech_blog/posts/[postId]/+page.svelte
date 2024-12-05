@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { createQuery } from '@tanstack/svelte-query';
 	import type { PageData } from './$types';
-	import Container from '../../../../components/organisms/Container.svelte';
+	import Container from '../../../../lib/components/organisms/Container.svelte';
 
 	let { data }: { data: PageData } = $props();
 

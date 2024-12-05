@@ -1,5 +1,5 @@
 <script>
-	import routes from '../../data/routes.json';
+	import routes from '../../../data/routes.json';
 	let isMenuActive = $state(false);
 </script>
 
