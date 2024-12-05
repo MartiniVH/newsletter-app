@@ -1,0 +1,14 @@
+[
+    {
+        "id": 0,
+        "name": "Recent",
+        "categories": [],
+        "url": "/"
+    },
+    {
+        "id": 1,
+        "name": "Tech blog",
+        "categories": [],
+        "url": "/tech_blog"
+    }
+]
