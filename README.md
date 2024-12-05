@@ -2,17 +2,9 @@
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-## Creating a project
+## Basic Newsletter app with Svelte
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
+This is a basic newsletter app with the JSON placeholder API, TailwindCSS, Svelte and Tanstack Query.
 
 ## Developing
 
@@ -36,3 +28,9 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+## Usage
+
+You can add aritcles in `src/data/articles` and make them accessible in the `src/data/articles.json` by adding them to the list correctly. To do so following the first two examples.
+
+On the tech blog page you can see some news articles from the JSON placeholder API. You can add a post manually by clicking the add post button.
